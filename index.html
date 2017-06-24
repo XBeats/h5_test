@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <style type="text/css">
+
+        body, div, p{
+            margin: 0;
+            padding: 0;
+        }
+
+        .g-header {
+            position: relative;
+            height: 64px;
+            background-image: url("./img/hd.png");
+        }
+
+        .g-title {
+            background-image: url("./img/hd.png");
+            background-position: bottom;
+            position: absolute;
+            top: 0;
+            left: 137px;
+            width: 257px;
+            height: 50px;
+            padding: 14px 0 0 137px;
+        }
+
+        .g-bd {
+            margin: 0 0 10px;
+            height: 400px;
+            padding-top: 10px;
+        }
+
+        .g-sd1 {
+            position: relative;
+            float: left;
+            width: 190px;
+            height: 100%;
+            margin-right: -190px;
+            background-color: red;
+        }
+
+        .g-mn1 {
+            position: relative;
+            float: right;
+            width: 100%;
+            height: 100%;
+            margin-left: 190px;
+        }
+
+        .g-mn1c {
+            height: 100%;
+            margin-left: 200px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+
+<div class="g-header">
+    <div class="g-title">
+    </div>
+</div>
+
+<div class="g-bd">
+    <div class="g-sd1">
+        <p>左侧定宽</p>
+    </div>
+    <div class="g-mn1">
+        <div class="g-mn1c">
+            <p>右侧自适应</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
