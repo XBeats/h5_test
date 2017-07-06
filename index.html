@@ -2,77 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home Page</title>
+    <title>XBeats</title>
+
+    <link rel="icon" href="./favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/jumbotron-narrow.css" rel="stylesheet">
+
     <style type="text/css">
 
-        body, div, p{
-            margin: 0;
-            padding: 0;
+        body {
+            background: #f9f9f9;
         }
 
-        .g-header {
-            position: relative;
-            height: 64px;
-            background-image: url("./img/hd.png");
+        .container {
+            max-width: 800px;
+            background: #fff;
+            border-radius: 6px;
+            margin: 40px auto 20px;
+            /*border: 1px solid #eee;*/
         }
 
-        .g-title {
-            background-image: url("./img/hd.png");
-            background-position: bottom;
-            position: absolute;
-            top: 0;
-            left: 137px;
-            width: 257px;
-            height: 50px;
-            padding: 14px 0 0 137px;
+        .mdl-shadow--4dp {
+            box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
         }
 
-        .g-bd {
-            margin: 0 0 10px;
-            height: 400px;
-            padding-top: 10px;
+        .img-circle {
+            height: 100px;
+            width: 100px;
         }
 
-        .g-sd1 {
-            position: relative;
-            float: left;
-            width: 190px;
-            height: 100%;
-            margin-right: -190px;
-            background-color: red;
-        }
-
-        .g-mn1 {
-            position: relative;
-            float: right;
-            width: 100%;
-            height: 100%;
-            margin-left: 190px;
-        }
-
-        .g-mn1c {
-            height: 100%;
-            margin-left: 200px;
-            background-color: blueviolet;
+        header {
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
-<div class="g-header">
-    <div class="g-title">
-    </div>
+<div class="container mdl-shadow--4dp">
+    <a><img class="img-circle" src="./img/avatar.jpg"></a>
+    <p>XBeats</p>
+    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
 </div>
 
-<div class="g-bd">
-    <div class="g-sd1">
-        <p>左侧定宽</p>
+<div class="container mdl-shadow--4dp">
+
+    <div>
+        <h1>Jumbotron heading</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
     </div>
-    <div class="g-mn1">
-        <div class="g-mn1c">
-            <p>右侧自适应</p>
-        </div>
-    </div>
+
 </div>
+
 </body>
 </html>
